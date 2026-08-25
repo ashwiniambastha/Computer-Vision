@@ -4,3 +4,5 @@ piexif
 matplotlib
 seaborn
 numpy
+torch
+torchvision
