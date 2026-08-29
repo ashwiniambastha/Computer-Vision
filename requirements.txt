@@ -6,3 +6,4 @@ seaborn
 numpy
 torch
 torchvision
+sklearn
