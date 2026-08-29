@@ -6,4 +6,4 @@ seaborn
 numpy
 torch
 torchvision
-sklearn
+scikit-learn
