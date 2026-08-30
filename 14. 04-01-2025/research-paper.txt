@@ -1,0 +1,8 @@
+VGGNet
+https://arxiv.org/pdf/1409.1556
+
+ResNet
+https://arxiv.org/pdf/1512.03385v1
+
+GoogleLeNet - Inception Block
+https://arxiv.org/pdf/1409.4842v1
