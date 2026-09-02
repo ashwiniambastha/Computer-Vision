@@ -1,0 +1,5 @@
+Resnet
+https://arxiv.org/pdf/1512.03385
+
+MobileNet
+https://arxiv.org/pdf/1704.04861
