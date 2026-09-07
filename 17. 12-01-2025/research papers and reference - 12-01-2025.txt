@@ -1,0 +1,26 @@
+Efficient Graph Based Image Segmentation
+- https://cs.brown.edu/people/pfelzens/papers/seg-ijcv.pdf
+
+selective search
+- http://www.huppelen.nl/publications/selectiveSearchDraft.pdf
+
+RCNN 
+- https://arxiv.org/pdf/1311.2524
+
+	- Pascal Voc Data
+		- http://host.robots.ox.ac.uk/pascal/VOC/
+	- RCNN notebook	
+		- https://nbviewer.org/github/BVLC/caffe/blob/master/examples/detection.ipynb
+	- GitHub
+		- https://github.com/rbgirshick/rcnn
+
+Fast Rcnn
+- https://arxiv.org/pdf/1504.08083v2
+
+faster rcnn
+- https://arxiv.org/pdf/1506.01497
+	- Diagram
+		- https://www.researchgate.net/profile/Zhipeng-Deng-2/publication/324903264/figure/fig2/AS:640145124499471@1529633899620/The-architecture-of-Faster-R-CNN.png
+	- GitHub
+		- https://github.com/rbgirshick/py-faster-rcnn
+
