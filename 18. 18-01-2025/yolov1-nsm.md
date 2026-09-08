@@ -1,5 +1,5 @@
 # NMS
-Ashwini(little change)
+ Ashwini
 
 ## Yolo v1
 
