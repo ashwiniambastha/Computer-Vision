@@ -7,7 +7,7 @@ step 3 : conda create -n yolov5 python=3.11 -y
 step 4 : conda activate yolov5 / source activate yolov5
 
 step 5 : pip install -r requirements.txt
-       : pip uinstall torch
+       : pip uninstall torch
        : pip uninstall torchvision
 
 step 6 : pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
