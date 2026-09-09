@@ -36,4 +36,7 @@ step 13 : python detect.py --weights yolov5s.engine --source 0 --device 0
 
 ========== model training ===============
 
-step 14 : Download dataset (https://app.roboflow.com/trial-8jh5l/hard-hat-sample-tvzek/1)
+step 14 : Download dataset (https://appapp.roboflow.com/trial-8jh5l/hard-hat-sample-tvzek/1)
+
+
+downloaded the yaml file from roboflow
