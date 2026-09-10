@@ -1,6 +1,6 @@
 {
     "gitdoc.enabled": true,
     "gitdoc.ai.enabled": true,
-    "gitdoc.ai.model": "gpt-4o-mini",
+    "gitdoc.ai.model": "gpt-4o",
     "gitdoc.ai.customInstructions": "Generate a concise, descriptive commit message in conventional commit format. Never use the current date or time as the commit message."
 }
