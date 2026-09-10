@@ -1,0 +1,13 @@
+train: ./images/train
+valid: ./images/valid
+test: ./images/test
+
+nc: 3
+names: ['head', 'helmet', 'person']
+
+roboflow:
+  workspace: nimoy-60oxu
+  project: hard-hat-sample-mszho
+  version: 1
+  license: Public Domain
+  url: https://app.roboflow.com/nimoy-60oxu/hard-hat-sample-mszho/1
