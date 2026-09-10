@@ -6,6 +6,6 @@ test: images/test # 20288 of 40670 images, submit via https://cocodataset.org/#d
 
 # Classes
 names:
- 0:head
- 1:helmet
- 2:person
+  0:head
+  1:helmet
+  2:person
