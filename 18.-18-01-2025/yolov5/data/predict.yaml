@@ -1,5 +1,5 @@
 
-path: ../datasets
+path: C:\E drive\A.I_Classes\ComputerVision\18.-18-01-2025\yolov5\datasets
 train: images/train # train images (relative to 'path') 118287 images
 val: images/valid # val images (relative to 'path') 5000 images
 test: images/test # 20288 of 40670 images, submit via https://cocodataset.org/#detection-eval
