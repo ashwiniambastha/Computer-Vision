@@ -1,0 +1,16 @@
+retina net
+https://github.com/yhenon/pytorch-retinanet
+
+yolox (train on the pretrained models allowed)(Apache)
+https://github.com/Megvii-BaseDetection/YOLOX
+
+MMdetection (Apache)
+https://github.com/open-mmlab/mmdetection
+    wrapper to work with mmdetection : https://github.com/Ikomia-hub/train_mmlab_detection
+
+YoloNAS (trained from scratch)(can't use the pretrained models)
+https://github.com/Deci-AI/super-gradients/blob/master/YOLONAS.md
+
+DAMO-Yolo (Apache)
+https://github.com/tinyvision/DAMO-YOLO
+
