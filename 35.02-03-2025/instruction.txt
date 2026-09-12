@@ -1,0 +1,47 @@
+Step 1 : Clone : https://github.com/lyuwenyu/RT-DETR.git
+
+Step 2 : got to folder : RT-DETR/rtdetrv2_pytorch
+
+Step 3 : conda create -n rtdetr2 python=3.11
+
+Step 4 : conda activate rtdetr2
+
+--> For GPU only
+Step 5 : conda install pytorch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 pytorch-cuda=12.4 -c pytorch -c nvidia
+
+--> If not GPU, Uncomment torch and torchvision in requirements.txt
+step 6 : pip install -r requirements_new.txt
+
+Step 7 : copy rtdetrv2_torch_cust.py mentioned in our course resource and paste in RT-DETR/rtdetrv2_pytorch/references/deploy folder
+
+Step 7 : copy yaml_config.py mentioned in our course resource and paste in RT-DETR/rtdetrv2_pytorch/src/core folder
+
+(If you want to run original file, update the file mentioned in the resource to the github file)fixed import error in rtdetrv2_torch.py
+Step 8 : 
+Take rtdetrv2_torch.py from course resource and override the file in GitHub present inside RT-DETR/rtdetrv2_pytorch/references/deploy 
+
+Line 13 is the only code added to rtdetrv2_torch.py (our course version)
+
+Step 9 : Place the coco_labels.yaml under RT-DETR/rtdetrv2_pytorch/configs/dataset
+
+=========================================================================================
+
+Run below command with correct config, input and model paths
+
+
+Original file command : 
+python references/deploy/rtdetrv2_torch.py -c C:/Monal/Work/AllLight/Krish-sir/KN-CV-B1-Nov-24/Resource/04-03-2025/RT-DETR/rtdetrv2_pytorch/configs/rtdetrv2/rtdetrv2_r18vd_120e_coco.yml -r C:/Monal/Work/AllLight/Krish-sir/KN-CV-B1-Nov-24/Resource/04-03-2025/RT-DETR/rtdetrv2_pytorch/model_downloaded/base_s/rtdetrv2_r18vd_120e_coco_rerun_48.1.pth --im-file=C:/Users/scl/Downloads/person_walking.jpg --device=cuda:0
+
+Custom file command : 
+python references/deploy/rtdetrv2_torch_cust.py -c "C:/Monal/Work/AllLight/Krish-sir/KN-CV-B1-Nov-24/Resource/04-03-2025/RT-DETR/rtdetrv2_pytorch/configs/rtdetrv2/rtdetrv2_r18vd_120e_coco.yml" -r "C:/Monal/Work/AllLight/Krish-sir/KN-CV-B1-Nov-24/Resource/04-03-2025/RT-DETR/rtdetrv2_pytorch/model_downloaded/base_s/rtdetrv2_r18vd_120e_coco_rerun_48.1.pth" --file="" -t "webcam" -l "C:/Monal/Work/AllLight/Krish-sir/KN-CV-B1-Nov-24/Resource/04-03-2025/RT-DETR/rtdetrv2_pytorch/configs/dataset/coco_labels.yaml" --device=cuda:0
+
+
+======================================================================================
+
+USEFUL COMMANDS : 
+
+conda remove -n rtdetr2 --all
+
+torch.version.cuda
+
+torch.cuda.is_available()

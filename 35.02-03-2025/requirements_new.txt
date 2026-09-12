@@ -1,0 +1,7 @@
+faster-coco-eval>=1.6.5
+PyYAML
+opencv-python
+tensorboard
+# torch
+# torchvision
+scipy

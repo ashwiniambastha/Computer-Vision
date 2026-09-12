@@ -1,0 +1,27 @@
+CSP-NET
+https://arxiv.org/pdf/1911.11929
+
+Dense-Block-Image
+https://production-media.paperswithcode.com/methods/Screen_Shot_2020-06-20_at_11.35.53_PM_KroVKVL.png
+
+Detectron2
+https://github.com/facebookresearch/detectron2
+
+DETR
+https://github.com/facebookresearch/detr
+
+DETR-research-paper
+https://arxiv.org/pdf/2005.12872
+
+Deformable-DETR
+https://github.com/fundamentalvision/Deformable-DETR
+
+RT-DETR Research paper
+https://arxiv.org/pdf/2304.08069
+
+RT-DETR GitHub
+https://github.com/lyuwenyu/RT-DETR/tree/main
+
+RT-DETR custom model training roboflow
+https://blog.roboflow.com/train-rt-detr-custom-dataset-transformers/
+
