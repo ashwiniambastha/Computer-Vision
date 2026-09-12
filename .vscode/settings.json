@@ -1,5 +1,5 @@
 {
-    "gitdoc.enabled": true,
+    "gitdoc.enabled": false,
     "gitdoc.ai.enabled": true,
     "gitdoc.ai.model": "gpt-4o",
     "gitdoc.ai.useEmojis": false,
